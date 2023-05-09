@@ -28,22 +28,6 @@ text-align: center ;
     height: 100%;
     display: block;
 }
-
-.timeline-content .business-item
-{
-    background-color:
-}
-
-.timeline-content .connection-item
-{
-    background-color:
-}
-
-.timeline-content .technology-item
-{
-    background-color:
-}
-
 .timeline-row {
     padding-left: 50%;
     position: relative;
