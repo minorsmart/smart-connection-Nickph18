@@ -37,6 +37,31 @@
     </div>
     
     <div class="timeline">
+        <head>
+            <style>
+              #moving-text {
+                position: fixed;
+                font-size: 24px;
+                color: rgb(26, 35, 58);
+                transform: translate(-50%, -50%);
+              }
+            </style>
+          </head>
+          <body>
+            <div id="moving-text">Job's MSI portfolio!</div>
+          
+            <script>
+              var movingText = document.getElementById("moving-text");
+          
+              document.addEventListener("mousemove", function(event) {
+                var x = event.clientX;
+                var y = event.clientY;
+          
+                movingText.style.left = x + "px";
+                movingText.style.top = y + "px";
+              });
+            </script>
+          </body>
         <div class="timeline-row">
             <div class="timeline-time">
                <small>Competentie 1</small>
@@ -140,15 +165,15 @@
                <small>Algemene indruk</small>
                </div>
                 <div class="timeline-content">
-                <h3>Andere helpen groeien</h3>
+                <h3>Algemene indruk</h3>
                 <p>Als automotive engineering student ben ik diep onder de indruk van de mogelijkheden die technologieën zoals het Internet of Things (IoT), kunstmatige intelligentie en data-analyse te bieden hebben. Deze minor heeft me laten zien hoe digitalisering en automatisering de industriële processen transformeren en efficiënter kunnen maken. Ik heb geleerd hoe ik systemen kan ontwerpen en implementeren om productieprocessen te optimaliseren en realtime gegevens te gebruiken om beslissingen te nemen. De minor Smart Industry heeft mijn passie voor innovatie en techniek versterkt en me klaar gemaakt voor een carrière in de industrie van de vierde industriële revolutie.</p>
             </div>
                  
         </div>
 
     </div>
-</div>
-    
+ </div>
+
 
     <!-- FOR BOOTSTRAP -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
