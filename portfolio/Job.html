@@ -41,24 +41,30 @@
           #moving-text {
             position: fixed;
             font-size: 24px;
-            color: rgb(26, 35, 58);
+            color: rgb(26, 38, 58);
             transform: translate(-50%, -50%);
-            z-index: 9999; /* Set a high z-index value */
+            z-index: 9999;
+            pointer-events: none; /* Disable mouse events on the text element */
           }
         </style>
       </head>
       <body>
-        <div id="moving-text">Jobs MSI portfolio!</div>
+        <div id="moving-text">Jobs MSI Portfolio!</div>
       
         <script>
-          var movingText = document.getElementById("moving-text");
-      
           document.addEventListener("mousemove", function(event) {
-            var x = event.clientX;
-            var y = event.clientY;
+            var movingText = document.getElementById("moving-text");
+            movingText.style.left = event.clientX + "px";
+            movingText.style.top = event.clientY + "px";
+          });
       
-            movingText.style.left = x + "px";
-            movingText.style.top = y + "px";
+          // Re-enable mouse events on the text element when the mouse is not over it
+          var movingText = document.getElementById("moving-text");
+          movingText.addEventListener("mouseenter", function() {
+            movingText.style.pointerEvents = "none";
+          });
+          movingText.addEventListener("mouseleave", function() {
+            movingText.style.pointerEvents = "none";
           });
         </script>
       </body>
