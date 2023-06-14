@@ -36,33 +36,35 @@
         <h2> Persoonlijke ontwikkeling MSI minor</h2>
     </div>
     
+    <head>
+        <style>
+          #moving-text {
+            position: fixed;
+            font-size: 24px;
+            color: rgb(26, 35, 58);
+            transform: translate(-50%, -50%);
+            z-index: 9999; /* Set a high z-index value */
+          }
+        </style>
+      </head>
+      <body>
+        <div id="moving-text">Job's MSI portfolio!</div>
+      
+        <script>
+          var movingText = document.getElementById("moving-text");
+      
+          document.addEventListener("mousemove", function(event) {
+            var x = event.clientX;
+            var y = event.clientY;
+      
+            movingText.style.left = x + "px";
+            movingText.style.top = y + "px";
+          });
+        </script>
+      </body>
+
     <div class="timeline">
-        <head>
-            <style>
-              #moving-text {
-                position: fixed;
-                font-size: 24px;
-                color: rgb(26, 35, 58);
-                transform: translate(-50%, -50%);
-              }
-            </style>
-          </head>
-          <body>
-            <div id="moving-text">Job's MSI portfolio!</div>
-          
-            <script>
-              var movingText = document.getElementById("moving-text");
-          
-              document.addEventListener("mousemove", function(event) {
-                var x = event.clientX;
-                var y = event.clientY;
-          
-                movingText.style.left = x + "px";
-                movingText.style.top = y + "px";
-              });
-            </script>
-          </body>
-        <div class="timeline-row">
+                <div class="timeline-row">
             <div class="timeline-time">
                <small>Competentie 1</small>
             </div>
