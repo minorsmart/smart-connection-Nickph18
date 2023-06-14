@@ -1,6 +1,6 @@
 body{
     color: #000000;
-    background: #white;
+    background: white;
 }
 
 .container h2
@@ -10,7 +10,7 @@ text-align: center ;
 }
 .timeline {
     position: relative;
-    background: #white;
+    background: white;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
