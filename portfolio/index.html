@@ -146,6 +146,7 @@ De optische sensoren draaien op Intel RealSense. De software van de arm zelf kon
 <div class="timeline-row">
     <div class="timeline-time">
        <small>19 April</small>
+       <img src="images/Analysis/UML Activity diagram.png" width="300" height="350">
     </div>
     <div class="timeline-content">
         <h3>Werking gripper achterhalen</h3>
@@ -170,13 +171,25 @@ Vervolgens gebeurde er niets.
 <div class="timeline-row">
     <div class="timeline-time">
        <small>19 April</small>
+       <video width="640" height="480" controls>
+        <source src="images/Index/IMG_3532.MOV" type="video/mp4">
     </div>
     <div class="timeline-content">
         <h3>Gripper uit Demo-modus</h3>
-        <p> Tekst 1
-            <br>
-            <br>
-            Tekst 2
+        <p>Na opnieuw contact te zoeken met de ontwikkelaar van de robot hebben we een instructie (via de telefoon) gekregen om de robot te reseten.
+            Waardoor de robot uiteindelijk wel in de productie modus kwam te staan. Dit was ons echter niet gelukt zonder hulp. De te nemen acties en stappen om de machine gereed te maken waren erg specifiek.
+            Uiteindelijk kregen we dus met wat hulp de machine aan de praat zoals te zien in het onderstaande filmpje.
+            
+            Hierdoor konden we gerichter de machine gaan testen en gaan analyseren hoe de machine werkt en waar er verbeter punten liggen.
+            Tijdens het testen kwamen we al snel erachter dat er nog wel een aantal stappen te zetten zijn voor de machine.
+            <br />
+            Tijdens de test fase hebben we dan ook contact gezocht met de ontwikkelaar van de robot, met de vraag of wij misschien aanpassingen konden maken 
+            of eventuele documentatie over de machine konden ontvangen om zo grondiger te machine te testen en de werking te analyseren.
+            Helaas was dit tot onze eigen irritatie niet mogelijk. Hierdoor is onze opdracht ook iets bijgesteld. 
+            Zo is de opdracht geworden analyseer de verschillende problemenen, breng hier over een advies zodat een latere groep hier verder mee aan de slag kan.
+            En werk 1 oplossing volledig uit zodat deze uiteindelijk gerealiseerd kan worden door de ontwikkelaar.
+
+
         </p>
     </div>
 </div>
@@ -185,27 +198,17 @@ Vervolgens gebeurde er niets.
 <div class="timeline-row">
     <div class="timeline-time">
        <small>11 mei</small>
+       <video width="640" height="480" controls>
+        <source src="images/Index/probleem_voorbeeld.mp4" type="video/mp4">
+        <br />
     </div>
     <div class="timeline-content">
         <h3> Picken meerdere modellen </h3>
-        <p> Tekst 1
-            <br>
-            <br>
-            Tekst 2
-        </p>
-    </div>
-</div>
-
-<div class="timeline-row">
-    <div class="timeline-time">
-       <small>16 mei</small>
-    </div>
-    <div class="timeline-content">
-        <h3> Oplossing creëeren </h3>
-        <p> Tekst 1
-            <br>
-            <br>
-            Tekst 2
+        <p>Tijdens het testen kwamen we al snel tot de conclusie dat de machine geen objecten herkend maar juist een hoogste punt, hierdoor onstaat het probleem dat de modellen die op elkaar liggen vaak
+            herkend worden als 1 object en dan ook samen op de band worden gelegd. Dit probleem wilde wij graag oplossen. Omdat als er meerdere objecten tegelijk op de band worden geplaatst de scanner die volgt 
+            het object niet kan herkennen en vervolgens zo het hele process af blijft lopen totdat een medewerker uiteindelijk de objecten van elkaar haalt.
+            Omdat het gewenst is dat de machine voor 80% objecten uit de bak haalt en op de lopende band het verdere proces instuurt, vonden wij dat wij dit probleem het beste konden aanpakken.
+            Dit probleem heeft dan ook veel invloed op het behalen van deze 80% en wij verwachten dat de oplossing weinig verandering vereist.            
         </p>
     </div>
 </div>
@@ -213,13 +216,26 @@ Vervolgens gebeurde er niets.
 <div class="timeline-row">
     <div class="timeline-time">
        <small>30 mei</small>
+       <video width="640" height="480" controls>
+        <source src="images/Index/probleem_oplossing.mp4" type="video/mp4">
     </div>
     <div class="timeline-content">
-        <h3> Testen oplossing en maken simulatie</h3>
-        <p> Tekst 1
-            <br>
-            <br>
-            Tekst 2
+        <h3> Oplossing</h3>
+        <p> Omdit probleem op te lossen hebben we verschillende oplossings richtingen overwogen. 
+            Zoals: <ul>
+            <li>De camera en software/algoritme verbeteren voor het herkennen van objecten zowel in de bak als op de lopende band. </li>
+            <li>De grijp/zuigmond verkleinen zodat de kans op meerdere objecten oppakken verkleind wordt.</li>
+            <li>Medewerkers de bak voordat deze de machine in gaat laten sorteren en objecten vrij maken.</li>
+            <li>De objecte op een schuine helling laten vallen zodat dubbele objecten van elkaar vallen.</li>
+        </ul>
+        Uiteindelijk is onze keuze gevallen op de laatste oplossing, omdat wij deze handmatig konden testen, hierdoor en vrij weinig aanpassingen aan de huidige machine gedaan hoeven te worden.
+        En wij verwachten dat deze oplossing de meeste impact zal hebben. Deze oplossing hebben we vervolgens erg simpel getest zoals ook te zien in het filmpje hier langs.
+        Om verder ons concept te versterken hebben we de machine na gemaakt in solidworks en vervolgens hier een simulatie gemaakt van vallende objecten om onze conclusie te versterken, zoals ook te zien in 
+        het filmpje.
+        <img src="images/Index/product_seperator.jpeg" alt="3D model schans" title="Solidworks tekening product_seperator" width="300"
+                        height="250">
+
+
         </p>
     </div>
 </div>
@@ -234,7 +250,13 @@ Vervolgens gebeurde er niets.
         <p> Om het project in goede handen over te dragen hebben we een analysebestand en werkinstructie geschreven. 
             Deze werkinstructie hebben we samen met Gerrit (Oceanz3D) doorlopen en vervolgens bij de machine uitgeprobeert. 
             Hierdoor wisten we zeker dat er intern iemand aanwezig is die weet hoe de machine werkt en deze ook aan en uit kan zetten. 
-            Het analysebestand hebben we gedeeld met Gerrit en met Eric (CEO Oceanz3D).        
+            Het analysebestand hebben we gedeeld met Gerrit en met Eric (CEO Oceanz3D).
+            <br />
+            <br />
+            Het document is:
+            <a href="images/Analysis/Analyse AM-Pick Oceanz3D.docx" download="Analyserapport">
+                Hier te downloaden
+              </a>     
         </p>
     </div>
 </div>
@@ -243,7 +265,7 @@ Vervolgens gebeurde er niets.
 <div class="timeline-row">
     <div class="timeline-time">
        <small>13 juni</small>
-       <img src="images/Analysis/UML Activity diagram.png" width="300" height="350">
+       <img src="images/Analysis/Activity Diagram am-pick gewenst.png" width="300" height="350">
     </div>
     <div class="timeline-content">
         <h3> Pitch en seminar </h3>
