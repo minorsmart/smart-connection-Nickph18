@@ -1,16 +1,17 @@
 body{
-    color: #000000;
-    background: #d3d3d3;
+    color: #190a92;
+    background: #90beff;
 }
 
 .container h2
 {
-color: rgb(0, 0, 0);
+    color: #190a92;
+
 text-align: center ;
 }
 .timeline {
     position: relative;
-    background: #8197f7;
+    background: #ffffffb0;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -24,7 +25,7 @@ text-align: center ;
     top: 0;
     left: 50%;
     margin-left: -2px;
-    border-right: 2px dashed #4b546f;
+    border-right: 2px dashed #ffc87b;
     height: 100%;
     display: block;
 }
@@ -49,7 +50,7 @@ text-align: center ;
 .timeline-row .timeline-content {
     position: relative;
     padding: 20px 30px;
-    background: #d3d3d3; 
+    background: #ffdbb5; 
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -57,7 +58,7 @@ text-align: center ;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
+
     text-align: justify;
 }
 .timeline-row .timeline-content:after {
@@ -101,7 +102,8 @@ text-align: center ;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
     border-radius: 100px;
-    background: #272e48;
+    background:  #190a92;
+  
     margin-bottom: 10px;
     display: inline-block;
 }
