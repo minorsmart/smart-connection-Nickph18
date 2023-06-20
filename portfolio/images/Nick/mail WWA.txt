@@ -1,0 +1,18 @@
+Hallo Eric,
+Bedankt voor je reactie
+
+Zelf hebben wij de AM-Pick machine al enkele keren aangezet en wij zagen toen twee verschillende dingen.
+De eerste keer zagen wij dat de machine begon te bewegen en de arm constant op de zelfde positie iets wilde "oppakken" zelfs toen er geen krat in de machine stond.
+Wij kregen het idee dat de robot een "Demo" run aan het draaien was.
+De tweede keer dat we de machine aanzetten gebeurde er echter niets. Toen hebben gekeken op de PC die in de machine zit en zagen hierbij twee programma's die opgestart
+waren en draaide genaamd (WWA-Bin en WWA-Conv) beide programma's bleven steken op de lijn "Entering listen mode" zoals op de afbeelding te zien van de bijlage.
+
+Onze voornamste vraag is dan ook of de AM-Pick machine al instaat is om te reageren op objecten die in de machine geplaatst worden en deze vervolgens op de lopende band kan leggen.
+Zodat wij de machine met verschillende objecten kunnen gaan testen. 
+
+- Kan dit nog niet zouden wij graag willen weten welke stappen er benodigd zullen zijn om dit te realiseren zodat wij in overleggen kunnen voor een vervolg.
+- Is dit wel mogelijk zouden wij graag willen weten hoe we de machine dit laten doen zodat we een aantal tests kunnen uitvoeren.
+
+Wij horen graag van u,
+
+Teun,Job en Nick
