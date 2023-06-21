@@ -3,6 +3,11 @@ body{
     background: white;
 }
 
+.Knopje
+{
+    text-align: center;
+}
+
 .container h2
 {
 color: black;
@@ -151,6 +156,8 @@ text-align: center ;
     transform: rotate(45deg);
 }
 
+
+
 @media (max-width: 992px) {
     .timeline {
         padding: 15px;
@@ -195,4 +202,7 @@ text-align: center ;
     .timeline .timeline-row:nth-child(even) .timeline-content:after {
         display: none;
     }
+
+    
 }
+
